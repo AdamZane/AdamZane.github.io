@@ -1,0 +1,88 @@
+<html>
+    <head>        
+    
+        <title>My Resume</title> <!--the title tags mean the title for the page rather than anything shown up on the body-->
+        <link href="../styles/layoutstyles.css" rel="stylesheet" type="text/CSS">
+       
+    </head>
+
+    <body>
+        <style>
+            h1 {text-align: center;}
+            h4 {text-align: center;}
+            p {text-align: center;}
+            div {text-align: center;}
+            a {text-align: center;}
+        </style>
+        
+        <a href="index.html"><b>Home</b></a>
+        <a href="aboutme.html">About Me</a>
+        <a href="https://amongus-online.net/">Among Us Online</a><br><br>
+        <h1>About Me</h1>
+
+        <div class="topnav">
+        <a href = "#edu">Education</a>
+        <a href = "#ski">Skills</a>
+        <a href = "#exp">Experience</a><br><br>
+        </div>
+
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            } 
+        </style>
+        <img src="../images/pfp.jpg"  height="200" alt="face" class="center">
+
+          
+        <h4>Adam Zane</h4>
+        <p>Undergraduate Student, Accounting<br>
+        Gonzaga University<br>
+        Spokane WA, 99258</p><br>
+
+        <p>Mission Statement: My goal is to be the best Accountant ever!</p>
+
+        <meta charset="utf-8">
+        <title>align</title>
+        <style>
+          li {list-style-position: inside;}
+        </style>
+
+        <ol>
+            <p id="exp" style="text-align: center">
+                <h3 style="text-align: center">Education</h3>
+                    <ul>
+                        <li>Gonzaga University, BA</li>
+                        <li>El Camino Real Charter High School, HS</li>
+                    </ul>
+            </p>
+
+            <p id="ski" style="text-align: center">
+                <h3 style="text-align: center">Skills</h3>
+                    <ul>
+                        <li>Database: ERD, SQL queries</li>
+                        <li>Data Analytics/Visualization: Tableau and Python</li>
+                        <li>Web Dev: HTML/CSS language</li>
+                        <li>CPR and First Aid Certified</li>
+                    </ul>   
+            </p>
+
+            <p id="exp" style="text-align: center">
+                <h3 style="text-align: center">Experience</h3>
+                    <ul>
+                        <li>Gonzaga Univeristy, in class workshops</li>
+                        <li>Excel class</li>
+                        <li>Sierra Canyon Day Camp - Head Counselor</li>
+                    </ul>
+            </p>
+                
+            
+        </ol>
+        <p>
+            <iframe width="640" height="360" src="https://www.youtube.com/embed/A0mDU0BhHyc" title="Romeo and Juliet" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </p>
+    </body>
+</html>
