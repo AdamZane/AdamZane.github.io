@@ -28,24 +28,22 @@ em {  /* when want bigger font */
 
 .leftcolumn {
     float:left;
-    width:30%;
+    width:33%;
 }
 
 .rightcolumn {
-    float:right;
-    width: 70%;
+    float:left;
+    width: 33%;
 }
 .column {
     float:center;
-    padding-left: 17%;
+    padding-left: 18%;
 }
 .footer {
     text-align: center;
-    padding-right: 25%;
 }
 .contact {
     text-align: center;
-    padding-right: 25%;
 }
 .contacthead {
     text-align: center;
@@ -58,4 +56,3 @@ em {  /* when want bigger font */
     font-style: oblique;
     color: darkslategray;
 }
-
